@@ -51,6 +51,8 @@ void setup() {
   delay(2000);
   display.clearDisplay();
   display.setTextColor(WHITE);
+  display.setRotation(2); //Set display rotation, 0 is normal, 2 is flipped.
+
 
   WiFiMulti.addAP(WIFI_SSID, WIFI_PASS);
   Serial.print("Connecting to WiFi AP: ");
