@@ -10,7 +10,7 @@
 #include <DHT.h>
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiMulti.h>
-#include <InfluxDb.h>                          // https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino
+#include <InfluxDb.h>                          // https://github.com/tobiasschuerg/InfluxDB-Client-for-Arduino only works with v.1.2.0 or below
 
 //Define some variables
 #define SCREEN_WIDTH 128                       // OLED display width, in pixels
